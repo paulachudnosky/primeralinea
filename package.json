@@ -1,0 +1,20 @@
+{
+  "name": "entorno-virtual-incendios",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test:v2": "node --test tests/v2-flow.test.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.180.0",
+    "typescript": "^5.9.0",
+    "vite": "^7.1.0"
+  }
+}
